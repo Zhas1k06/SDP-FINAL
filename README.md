@@ -59,7 +59,7 @@ The code could be enhanced by implementing:
 - Capability for users to leave reviews for orders
 
 ### UML Diagram
-![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/uml.png)
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/Снимок%20экрана%202023-11-22%20в%2018.06.57.png?raw=true)
 
 ### GitHub Repository
 [GitHub Repository Link](https://github.com/Zhas1k06/SDP-FINAL.git)
