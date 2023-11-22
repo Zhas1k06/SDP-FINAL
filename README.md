@@ -54,10 +54,15 @@ The code could be enhanced by implementing:
 - Capability for users to leave reviews for orders
 
 ### UML Diagram
-[Link to UML Diagram](link_to_your_image)
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/uml.png)
 
 ### GitHub Repository
 [GitHub Repository Link](https://github.com/Zhas1k06/SDP-FINAL.git)
+
+### Main body
+New client registration
+This feature allows the user to register in the system by entering their name. If the user is already registered, the system skips this step.
+
 
 ### Example Output
 An example output demonstrates a user named Ivan registering, selecting items, adding decorators, specifying order details, and determining the total cost.
