@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="https://github.com/Zhas1k06/SDP-FINAL/blob/main/aitu.png" alt="logo">
+</p>
+
 # Online Fast-Food Ordering System
 
 ## Final Project for "Software Design Patterns" Course - SE-2226
@@ -63,9 +68,51 @@ The code could be enhanced by implementing:
 New client registration
 This feature allows the user to register in the system by entering their name. If the user is already registered, the system skips this step.
 
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/IMAGE%202023-11-22%2007:31:50.jpg)
+
+
+### Product selection
+
+This feature allows the user to select a product from a list. There are two products available: burger and pizza.
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/IMAGE%202023-11-22%2007:31:51.jpg)
+
+
+### Adding Decorators
+
+This feature allows the user to add decorators to the selected product. There are two decorators available: cheese and vegetables.
+
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/4.png)
+
+Placing an order
+
+This feature allows the user to reference an order. The user must indicate the number of products and the size of the pizza (if pizza is selected).
+
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/IMAGE%202023-11-22%2007:31:47.jpg)
+
+Selecting a payment method
+This feature allows the user to select a payment method. Two payment methods are available: credit card and Kaspi Bank.
+
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/IMAGE%202023-11-22%2007:31:55.jpg)
+
+Entering an address and using courier information
+This feature allows the user to enter a shipping address. The system also displays courier information, including delivery costs.
+
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/IMAGE%202023-11-22%2007:31:56.jpg)
+
+Calculation of the total cost of the order
+This function determines the cost of the order, including the cost of production, delivery and payment.
+
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/IMAGE%202023-11-22%2007:31:57.jpg)
 
 ### Example Output
 An example output demonstrates a user named Ivan registering, selecting items, adding decorators, specifying order details, and determining the total cost.
+
+![Link to UML Diagram](https://github.com/Zhas1k06/SDP-FINAL/blob/main/console.png)
+
+As can be seen from the output, the user registered in the system under the name Ivan, selected a burger, added cheese and vegetables to it, ordered two burgers, selected a pizza size of 25 cm and indicated the delivery address. The total cost of the order was 5600 tenge, including 1000 tenge for delivery..
+
+
+
 
 ### Conclusion
 
@@ -96,5 +143,14 @@ Implementing the decorator pattern posed a significant challenge initially.
 - Efficient and maintainable implementation of decorator and adapter patterns
 - Suggested improvements include adding unit tests and a logging system
 
+Conclusion
+- The project was a success and the application met all of the requirements. The project also provided valuable insights into the use of design patterns.
+- Specific insights for the code you provided
+- The code you provided is well-organized and uses the design patterns correctly. The decorator pattern is implemented in a way that is efficient and easy to maintain. The adapter pattern is also implemented correctly, and it allows the application to use the legacy food order system without having to modify the code of the legacy system.
+- One potential improvement to the code would be to add unit tests. Unit tests would help to ensure that the code is working correctly and that it is easy to maintain.
+- Another potential improvement would be to add a logging system. A logging system would help to track errors and performance problems.
+
+
 ### References
 - [Visual Paradigm](https://www.visual-paradigm.com/support/)
+- [design pattern](https://refactoring.guru/ru/design-patterns/java)
